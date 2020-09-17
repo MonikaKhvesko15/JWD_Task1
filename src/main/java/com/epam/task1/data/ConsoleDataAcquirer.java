@@ -12,7 +12,7 @@ public class ConsoleDataAcquirer implements DataAcquirer {
 
         System.out.print(">> ");
 
-        while (scanner.hasNextInt() == false) {
+        while (!scanner.hasNextInt()) {
             buf = scanner.nextLine();
             System.out.println(">> ");
         }
