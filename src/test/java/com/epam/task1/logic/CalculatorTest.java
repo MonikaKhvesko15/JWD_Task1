@@ -6,12 +6,14 @@ import org.junit.Test;
 public class CalculatorTest {
     @Test
     public void shouldCalculateCorrectValue() {
+        //given
         Calculator calculator = new Calculator();
         double excepted = -1.0;
-
         int point = 5;
-        double actual = calculator.CalculateValue(point);
 
+        //when
+        double actual = calculator.CalculateValue(point);
+        //then
         Assert.assertEquals(excepted, actual, 0.000001);
     }
 }

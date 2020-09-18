@@ -3,7 +3,6 @@ package com.epam.task1.data;
 import java.util.Scanner;
 
 public class ConsoleDataAcquirer implements DataAcquirer {
-
     public int getIntNumber() {
         int number;
         String buf;
