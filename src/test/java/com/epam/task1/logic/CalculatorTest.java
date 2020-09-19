@@ -12,7 +12,7 @@ public class CalculatorTest {
         int point = 5;
 
         //when
-        double actual = calculator.CalculateValue(point);
+        double actual = calculator.calculateValue(point);
         //then
         Assert.assertEquals(excepted, actual, 0.000001);
     }
